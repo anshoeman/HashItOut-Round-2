@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-validator": "^6.14.2",
     "jsonwebtoken": "^8.5.1",
@@ -14,9 +15,17 @@
   "name": "hash_it_out",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshoeman/HashItOut-Round-2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anshoeman/HashItOut-Round-2/issues"
+  },
+  "homepage": "https://github.com/anshoeman/HashItOut-Round-2#readme",
   "description": ""
 }
