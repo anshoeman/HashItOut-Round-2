@@ -9,6 +9,9 @@ connectDb();/*Mongodb connection function*/
 
 const PORT = process.env.PORT || 5000
 
+app.get('/',(req,res)=>{
+    res.send('Welcome to the backend')
+})
 
 app.use('/api/alien',require('./routes/api/Alien'))
 app.use('/api/login',require('./routes/api/Admin'))
