@@ -15,6 +15,9 @@
   "name": "hash_it_out",
   "version": "1.0.0",
   "main": "server.js",
+  "engines":{
+    "node":"14.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
