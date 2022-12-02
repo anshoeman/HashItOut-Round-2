@@ -9,8 +9,9 @@
     "nodemon": "^2.0.20"
   },
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server"
+    "start": "node index.js",
+    "server": "nodemon index",
+    "build":"node index.js"
   },
   "name": "hash_it_out",
   "version": "1.0.0",
