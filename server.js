@@ -3,6 +3,7 @@ const app = express();
 const connectDb = require("./database/connectDb");
 const cors = require("cors");
 connectDb(); /*Mongodb connection function*/
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
