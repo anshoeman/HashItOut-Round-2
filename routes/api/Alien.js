@@ -41,7 +41,7 @@ API ENDPOINT : update/:id
 DESCRIPTION : This API will help us to perform the update on a specific profile by id.
 */
 
-router.patch("/update/:id", Auth, async (req, res) => {
+router.put("/update/:id", Auth, async (req, res) => {
   try {
     const id = req.params.id;
     const updatedProfileData = req.body;
