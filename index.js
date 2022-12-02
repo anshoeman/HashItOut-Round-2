@@ -9,9 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 
 
-app.get('/',(req,res)=>{
-  return res.send('anshuman')
-})
+
 
 const PORT = process.env.PORT || 5000
 
