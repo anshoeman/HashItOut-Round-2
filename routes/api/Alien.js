@@ -52,7 +52,7 @@ router.patch("/update/:id", Auth, async (req, res) => {
       updatedProfileData,
       options
     );
-    res.send(updatedAlien);
+    res.send("The alien profile has been updated");
   } catch (error) {
     console.log(error);
   }
@@ -68,7 +68,7 @@ router.delete("/delete_profile/:id", Auth, async (req, res) => {
   try {
     const alienId = req.params.id;
     const alien = await Alien.findByIdAndDelete(alienId);
-    res.json(alien);
+    res.json("The alien profile has been deleted");
   } catch (error) {
     console.log(error);
   }
