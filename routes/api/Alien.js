@@ -13,7 +13,7 @@ https://jwt.io/
 
 /*
 METHOD : POST
-API ENDPOINT : /api/alien/
+API ENDPOINT : /
 DESCRIPTION : This API endpoint helps us in the profile building for the alien
 */
 
@@ -37,7 +37,7 @@ router.post("/", Auth, async (req, res) => {
 
 /*
 METHOD : PATCH
-API ENDPOINT : /api/alien/update/:id
+API ENDPOINT : update/:id
 DESCRIPTION : This API will help us to perform the update on a specific profile by id.
 */
 
@@ -60,7 +60,7 @@ router.patch("/update/:id", Auth, async (req, res) => {
 
 /*
 METHOD : DELETE
-ENDPOINT : /api/alien/delete_profile/:id
+ENDPOINT : delete_profile/:id
 DESCRIPTION : This API endpoint will help us in deleting the profile of an alien by id.
 */
 
@@ -76,7 +76,7 @@ router.delete("/delete_profile/:id", Auth, async (req, res) => {
 
 /*
 METHOD : GET
-ENDPOINT : /api/alien/getAliens
+ENDPOINT : /
 DESCRIPTION : This API endpoint will help you in fetching all the profiles
 */
 
