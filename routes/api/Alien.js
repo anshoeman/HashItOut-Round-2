@@ -80,7 +80,7 @@ ENDPOINT : /api/alien/getAliens
 DESCRIPTION : This API endpoint will help you in fetching all the profiles
 */
 
-router.get("/", async (req, res) => {
+router.get("/",Auth,async (req, res) => {
   try {
     const alien = await Alien.find();
     res.json(alien);
